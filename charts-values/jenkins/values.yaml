@@ -3,6 +3,7 @@ rbac:
   install: true
 
 Master:
+  AdminPassword: password
   Image:    jenkins/jenkins
   ImageTag: "2.150"
   ServiceType: ClusterIP
